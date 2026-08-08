@@ -45,8 +45,8 @@ const ALLOWED_COUNTRIES = ["US", "IN", "PK"];
 // / Only the canonical host should serve content; the apex domain
 // (and any www-less variant) is permanently redirected to it so that
 // both brookloans.com and www.brookloans.com resolve to one indexable URL.
-const CANONICAL_HOST = "www.brookloans.com";
-const APEX_HOST = "brookloans.com";
+const CANONICAL_HOST = "https://alturaloans.vercel.app";
+const APEX_HOST = "https://alturaloans.vercel.app";
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;

@@ -75,7 +75,7 @@ export default function RootLayout({
       <head>
         <link
           rel="preconnect"
-          href="https://api.brookloans.com"
+          href="https://alturaloans.vercel.app"
           crossOrigin="anonymous"
         />
         <link
